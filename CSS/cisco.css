@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.cont1{
+    height: 100%;
+    width: 55%;
+    background-image: url(/images/cisco);
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    align-items: flex-start;
+    justify-content: center;
+}
+.cont1 h1{
+    font-weight: 100;
+    font-size: 48px;
+    color: white;
+    font-family: "CiscoSans", "Arial", sans-serif;
+    margin-left: 10%;
+    margin-bottom: 3%;
+}
+.cont1 p{
+    font-weight: 100;
+    font-size: 20px;
+    color: white;
+    font-family: "CiscoSans", "Arial", sans-serif;
+    margin-left: 10%;
+    margin-bottom: 20%;
+}
+.cont2{
+    height: 100%;
+    width: 45%;
+     display: flex;
+    flex-direction: column;
+    background-size: cover;
+    align-items: flex-start;
+    /* justify-content: center; */
+}
+.cont2 h5{
+    font-weight: 100;
+    font-size: 15px;
+    color: #495057;
+    font-family: "CiscoSans", "Arial", sans-serif;
+    margin-top: 20px;
+    margin-left: 20%;
+}
+.cont2 h4{
+    font-weight: 100;
+    font-size: 36px;
+    color: #333333;
+    font-family: "CiscoSans", "Arial", sans-serif;
+    margin-left: 10%;
+}
+.cont2 h3{
+    font-weight: 100;
+    font-size: 17px;
+    color: #333333;
+    font-family: "CiscoSans", "Arial", sans-serif;
+    margin-left: 10%;
+}
+.cont2 input{
+    height: 35px;
+    width: 60%;
+    margin-left: 10%;
+    border: 1px solid #ced4da;
+}
+.label{
+    margin-left: 10%;
+    font-size: 13px;
+    font-family: "CiscoSans", "Arial", sans-serif;
+}
+.remember{
+    height: 10%;
+    width: 60%;
+    background-color: white;
+    display: inline-flex;
+    margin-left: 10%;
+    align-items: center;
+    justify-content: flex-start;
+}
+.remember input{
+   height: 13px;
+   width: 13px; 
+   margin: 0px 0px 5px;
+}
+.label1{
+    font-size: 13px;
+    font-family: "CiscoSans", "Arial", sans-serif;
+   margin-left: 2px;
+}
+.remember a{
+    color: #487b32;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "CiscoSans", "Arial", sans-serif;
+    font-weight: 550;
+    margin-left: 180px;
+}
+.cont2 button{
+    height: 40px;
+    width: 25%;
+    margin-left: 10%;
+    border-radius: 20px;
+    background-color: #6abf4b;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+}
+.cont2 h1{
+    font-size: 13px;
+    font-family: "CiscoSans", "Arial", sans-serif;
+    margin-left: 10%;
+}
+.buttons{
+    height: 10%;
+    width: 80%;
+    background-color: white;
+    display: inline-flex;
+    margin-left: 10%;
+    align-items: center;
+    justify-content: flex-start;
+}
+.buttons .g{
+    height: 40px;
+    width: 30%;
+    margin-left: 10%;
+    border-radius: 20px;
+    background-color: white;
+    border: 2px solid #d1d1d1;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    /* background-image: url(/images/google.svg);
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+.buttons .g img{
+    height: 60%;
+    width: 60%;
+}
+.buttons .c{
+    font-size: 12px;
+    text-align: center; 
+    background-color: #1e4471;
+    border: 2px solid #1e4471;
+    color: white;
+    font-weight: 100;
+}
+.cont2 p{
+    color: #333;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: "CiscoSans", "Arial", sans-serif;
+    margin-left: 10%;
+    margin-top: 30px;
+}
+
